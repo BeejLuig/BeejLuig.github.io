@@ -1,0 +1,21 @@
+# Site settings
+title: BJ Cantlupe
+header-img: img/home-bg.png
+email: bjcantlupe@gmail.com
+copyright_name: BeejLuig
+description: > # this means to ignore newlines until "baseurl:"
+  A Musical Journey to Web Development
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  BeejLuig
+learn_profile: BeejLuig
+email_username: bjcantlupe@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
