@@ -125,7 +125,7 @@ animation-duration: 2s // how long the animation will last, can also be set in m
 
 animation-iteration-count: infinite // how many times to play the animation
 
-### Last but not least
+**Last but not least**
 
 We give the .fall class to the .ball div, and that's it!
 
