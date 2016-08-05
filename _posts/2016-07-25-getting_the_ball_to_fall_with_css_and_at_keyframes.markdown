@@ -4,11 +4,11 @@ title:  "Getting the Ball to {Fall} with CSS and @Keyframes"
 date:   2016-07-25 22:45:26 +0000
 ---
 
-I am nearing the end of the HTML/CSS portion of the Learn program, and so far it has been smooth sailling. More often than not, I find myself exploring beyond the lessons within the Learn program, reading blogs, browsing Github, or messing around in [jsfiddle](http://jsfiddle.net) and [codepen](http://codepen.io). I'm planning on posting more frequently with my favorite concepts / mini-projects.
+I am nearing the end of the HTML/CSS portion of the Learn program, and so far it has been smooth sailling. More often than not, I find myself exploring beyond the lessons within the Learn program, reading blogs, browsing Github, or messing around in <a href="http://jsfiddle.net" target="_blank">jsfiddle</a> and <a href="http://codepen.io" target="_blank">codepen</a>. I'm planning on posting more frequently with my favorite concepts / mini-projects.
 
 **@Keyframes is your friend**
 
-My introduction to the css @keyframes rule was about a year ago when I was working through [Code Academy](http://codeacademy.com), and I gave up on it almost immediately. It looked like a whole lotta code to make the simplest animation. Turns out, it's WAYYY easier than I first thought. 
+My introduction to the css @keyframes rule was about a year ago when I was working through <a href="http://codeacademy.com" target="_blank">Code Academy</a>, and I gave up on it almost immediately. It looked like a whole lotta code, just to make the simplest animation. Turns out, it's WAYYY easier than I first thought. 
 
 **Make the ball fall**
 
@@ -80,13 +80,13 @@ You can include as many points within the animation duration as you wish, so lon
 
 Browser support is pretty easy. Just create your @keyframes animation, then copy/paste three times. Then, you add three prefixes to the @keyframes, after the '@' and before 'keyframes,' like so:
 
-standard syntax: @keyframes { ...animation code...}
+standard syntax: @keyframes [animation name] { ...animation code...}
 
-chrome/safari support: @-webkit-keyframes fall { ...animation code...}
+chrome/safari support: @-webkit-keyframes [animation name] { ...animation code...}
 
-firefox support: @-moz-keyframes fall { ...animation code...}
+firefox support: @-moz-keyframes [animation name] { ...animation code...}
 
-opera support: @-o-keyframes fall { ...animation code...}
+opera support: @-o-keyframes [animation name] { ...animation code...}
 
 **Targeting the animation in CSS**
 
@@ -202,10 +202,12 @@ div {
 
 The extra div is just to center the ball in the page.
 
-Here is the [final result](http://codepen.io/BeejLuig/details/NArJAw/). Enjoy!
+Here is the <a href"http://codepen.io/BeejLuig/details/NArJAw/" target="_blank">result</a>. Play around with it!
 
+<p data-height="355" data-theme-id="0" data-slug-hash="NArJAw" data-default-tab="css,result" data-user="BeejLuig" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/BeejLuig/pen/NArJAw/">NArJAw</a> by BJ Cantlupe (<a href="http://codepen.io/BeejLuig">@BeejLuig</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-As a bonus, here is what my [final fiddle](http://codepen.io/BeejLuig/pen/XKqOQP) looks like. It adds some new concepts, but it might have to wait for another post...
+As a bonus, here is what my <a href"http://codepen.io/BeejLuig/pen/XKqOQP" target="_blank">final fiddle</a> looks like. It adds some new concepts, but they might have to wait for another post...
 
 
 
