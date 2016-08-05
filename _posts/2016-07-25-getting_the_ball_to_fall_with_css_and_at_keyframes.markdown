@@ -202,12 +202,15 @@ div {
 
 The extra div is just to center the ball in the page.
 
-Here is the <a href"http://codepen.io/BeejLuig/details/NArJAw/" target="_blank">result</a>. Play around with it!
+Here is the <a href="http://codepen.io/BeejLuig/details/NArJAw/" target="_blank">result</a>. Play around with it!
 
 <p data-height="355" data-theme-id="0" data-slug-hash="NArJAw" data-default-tab="css,result" data-user="BeejLuig" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/BeejLuig/pen/NArJAw/">NArJAw</a> by BJ Cantlupe (<a href="http://codepen.io/BeejLuig">@BeejLuig</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-As a bonus, here is what my <a href"http://codepen.io/BeejLuig/pen/XKqOQP" target="_blank">final fiddle</a> looks like. It adds some new concepts, but they might have to wait for another post...
+As a bonus, here is what my <a href="http://codepen.io/BeejLuig/pen/XKqOQP" target="_blank">final fiddle</a> looks like. It adds some new concepts, but they might have to wait for another post...
+
+<p data-height="305" data-theme-id="0" data-slug-hash="XKqOQP" data-default-tab="css,result" data-user="BeejLuig" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/BeejLuig/pen/XKqOQP/">XKqOQP</a> by BJ Cantlupe (<a href="http://codepen.io/BeejLuig">@BeejLuig</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 
 
