@@ -70,7 +70,7 @@ You can include as many points within the animation duration as you wish, so lon
 }
 ```
 
-*In short, this code is saying this:*
+*In short, the code is saying this:*
 
 0%: Element starting position
 
