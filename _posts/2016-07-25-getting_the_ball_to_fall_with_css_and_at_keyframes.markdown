@@ -30,7 +30,7 @@ One of my recent for-fun animation demos is a row of circles falling up and down
   width: 50px;
   border-radius: 100px;
   display: inline-block;
-  background: red;
+  background: blue;
 }
 ```
 
