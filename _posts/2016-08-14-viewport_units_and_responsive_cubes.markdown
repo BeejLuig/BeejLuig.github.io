@@ -9,7 +9,7 @@ I recently began playing with 3D transforms and shapes using CSS. One of the mor
 
 Once we have the cube, *what can we do with it*? With the help of viewport units, we can make it responsive!
 
-A detailed explanation of viewport units is <a href="https://web-design-weekly.com/2014/11/18/viewport-units-vw-vh-vmin-vmax/" target="_blank">here</a>, but I will give a brief explanation.
+A detailed explanation of viewport units is <a href="https://web-design-weekly.com/2014/11/18/viewport-units-vw-vh-vmin-vmax/" target="_blank">here</a>, but I will keep mine brief.
 
 In the words of <a href="http://www.w3schools.com/css/css_rwd_viewport.asp" target="_blank">W3 Schools</a>, the **viewport** is the The viewport is the user's visible area of a web page. Obviously viewport sizes vary from screen to screen, so it's easy to see how viewport units can come in handy to create responsive elements.
 
