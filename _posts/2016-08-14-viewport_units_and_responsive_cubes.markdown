@@ -82,6 +82,8 @@ It is important to note that the `translateZ( 100px )` is pushing each side out 
 
 ## Getting Responsive
 
+---
+
 Now that we get what is happening with the cube, we just need to replace some of the CSS sizing with viewport units. 
 
 First, we will adjust the `.container` of the cube
