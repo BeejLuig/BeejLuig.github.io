@@ -115,7 +115,7 @@ Next, we'll take a look at the `#cube` selector
 }
 ```
 
-No need to change the width and height settings! The width and height settings will still fill the container effectively. We only change the Z-translation. Moving right along...
+No need to change the width and height settings! The current settings will fill the container effectively. We only change the Z-translation. Moving right along...
 
 ```
 #cube figure {
