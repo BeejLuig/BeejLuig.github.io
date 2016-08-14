@@ -111,7 +111,7 @@ Next, we'll take a look at the `#cube` selector
   height: 100%;
   position: absolute;
   transform-style: preserve-3d;
-	transform: translateZ( -50vw );
+  transform: translateZ( -50vw );
 }
 ```
 
