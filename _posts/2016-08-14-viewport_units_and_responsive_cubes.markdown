@@ -81,6 +81,7 @@ At first, all six of our cube sides sit on top of each other. We rotate them on 
 It is important to note that the `translateZ( 100px )` is pushing each side out 1/2 of the cube height/width from the center. If the cube width was 500px, we would need a Z-translation of 250px for each side.
 
 ## Getting Responsive
+
 Now that we get what is happening with the cube, we just need to replace some of the CSS sizing with viewport units. 
 
 First, we will adjust the `.container` of the cube
