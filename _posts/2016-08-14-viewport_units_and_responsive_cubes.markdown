@@ -75,7 +75,7 @@ Taking a quick look at the CSS, we can see that the size of this cube is fixed:
 #cube { transition: transform 1s; }
 ```
 
-Looking at the bottom bunch of CSS, we notice that each cube side has a rotation, and all have a Z-translation of 100px. 
+Check out the bunch of CSS code at the bottom. Each cube side has a rotation, and all have a Z-translation of 100px. 
 At first, all six of our cube sides sit on top of each other. We rotate them on the X and Y axes to face the right way, then we push them out from the center to take their respective positions within the cube div. 
 
 It is important to note that the `translateZ( 100px )` is pushing each side out 1/2 of the cube height/width from the center. If the cube width was 500px, we would need a Z-translation of 250px for each side.
