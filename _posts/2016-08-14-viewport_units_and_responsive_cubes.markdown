@@ -44,7 +44,7 @@ Taking a quick look at the CSS, we can see that the size of this cube is fixed:
   height: 100%;       // fills container height (200px)
   position: absolute;
   transform-style: preserve-3d;
-	transform: translateZ( -100px ); 
+  transform: translateZ( -100px ); 
 }
 
 #cube figure {
