@@ -16,7 +16,9 @@ Besides getting to do work that is above my paygrade and actually what *want* to
 Long story short, every day I have to post 5-10 images on our library Tumblr account, and there are specific guidelines about captioning. It needs to looks something like this:
 
 > *This is the Title for a Book: Subtitle Here* 
+
 >  by Joe Schmo 
+
 >  Call # 1234.56a 
 
 The library catalog records that we get this information from looks like this:
