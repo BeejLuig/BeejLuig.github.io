@@ -99,7 +99,9 @@ tumblr #calls the tumblr method!
 
 I am about to use this program right now, so lets see it in REAL LIFE ACTION
 
-<video width="582" height="368" controls>
-  <source src="/img/tumblrrb.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div style="width: 100%; text-align: center;">
+  <video width="582" height="368" controls>
+    <source src="/img/tumblrrb.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
