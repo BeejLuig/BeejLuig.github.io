@@ -11,7 +11,7 @@ I work in a university library full time, but not as a librarian. My title is "c
 
 ## `tumblr.rb`, the CLI I use every day
 
-Besides getting to do work that is above my paygrade and actually what *want* to do, I have been able to, at times, find ways to apply the things I am learning directly to every day problems. One example is actually my first CLI, `tumblr.rb`. It's a humble little program and admittedly not the cleanest in the world, but it has turned my least favorite task of the day into one of the things I look forward to the most!
+Besides getting to do work that is above my paygrade and actually what I *want* to do, I have been able to, at times, find ways to apply the things I am learning directly to every day problems. One example is actually my first CLI, `tumblr.rb`. It's a humble little program and admittedly not the cleanest in the world, but it has turned my least favorite task of the day into one of the things I look forward to the most!
 
 Long story short, every day I have to post 5-10 images on our library Tumblr account, and there are specific guidelines about captioning. It needs to looks something like this:
 
