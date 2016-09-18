@@ -4,7 +4,7 @@ header-img: img/home-bg.png
 email: bjcantlupe@gmail.com
 copyright_name: BeejLuig
 description: > # this means to ignore newlines until "baseurl:"
-  A Musician's Journey to Web Development
+  A Musician's Journey in Web Development
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: https://twitter.com/beejluig
 github_username:  BeejLuig
