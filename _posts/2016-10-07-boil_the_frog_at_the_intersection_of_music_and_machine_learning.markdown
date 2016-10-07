@@ -43,9 +43,9 @@ I have been having an absolute blast playing around with this web application an
 
 **Learn more**
 
-Try Boil the Frog [here](http://static.echonest.com/BoilTheFrog/)
-See the source code for Boil the Frog [here](https://github.com/plamere/boilthefrog-spotify-app)
-Check out The Echo Nest [here](http://the.echonest.com/)
-Check out Paul Lamere's blog [here](https://musicmachinery.com/)
+Try Boil the Frog [here](http://static.echonest.com/BoilTheFrog/)  
+See the source code for Boil the Frog [here](https://github.com/plamere/boilthefrog-spotify-app)  
+Check out The Echo Nest [here](http://the.echonest.com/)  
+Check out Paul Lamere's blog [here](https://musicmachinery.com/)  
 
 
