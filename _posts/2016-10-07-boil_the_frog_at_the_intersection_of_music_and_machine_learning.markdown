@@ -15,9 +15,10 @@ Boil the Frog is a simplistic-looking web app that takes in two artists as input
 
 **Why use it?**
 
-How many times have you tried to convince a friend to listen to an artist that he/she has no interest in? "Just trust me," you say. "You may not *think* you will like this band, but they are actually just like some of the other stuff you like." This is the kind of situation where Boil the Frog shines: connecting unlikely artists through degrees of musical separation. 
+How many times have you tried to convince a friend to listen to an artist that he/she has no interest in? "Just trust me," you say. "You may not *think* you will like this band, but they are actually just like some of your favorite artists." This is the kind of situation where Boil the Frog shines: connecting unlikely artists through degrees of musical separation. 
 
 Some examples listed in the Boil the Frog about:
+
 * [Miley Cyrus to Miles Davis](http://static.echonest.com/BoilTheFrog/index.html?src=%27miley%20cyrus%27&dest=%27miles%20davis%27)
 * [Justin Bieber to Jimi Hendrix](http://static.echonest.com/BoilTheFrog/index.html?src=%27justin%20bieber%27&dest=%27jimi%20hendrix%27)
 * [Mickey Mouse to deadmau5](http://static.echonest.com/BoilTheFrog/index.html?src=%27mickey%20mouse%27&dest=%27deadmau5%27)
@@ -28,11 +29,12 @@ Gotta love the alliteration!
 
 Boil the Frog is powered by music data aggregator [The Echo Nest](http://the.echonest.com/) which, as of this writing, has 3,519,350 known artists and a whopping 37,484,281 songs stored in their databases. Both of those numbers went up before I could finish that sentence. The web app was built by The Echo Nest's Director of Developer Platform, Paul Lemere.
 
-According to the site, a similarity graph of about 100,000 artists is created every time you "boil the frog." Similarities between artists are calculated through an algorithm provided by The Echo Nest.  The playlist is defined by the path through the app, selected by the app. The path between one artist and the next is selected by their relative popularity. The songs are selected after the artist. The app aims to maintain the energy level from song to song, keeping the musical "boil."
+According to the site, a similarity graph of about 100,000 artists is created every time you "boil the frog." Similarities between artists are calculated through an algorithm provided by The Echo Nest.  The playlist is defined by the path through the graph, selected by the app. The path between one artist and the next is selected by their relative popularity. The songs are selected after the artist. The app aims to maintain the energy level from song to song, keeping the musical "boil."
 
 **My playlist**
 
 Here are a couple of my favorite playlists
+
 * [NOFX to D'Angelo](http://static.echonest.com/BoilTheFrog/?src=nofx&dest=dangelo)
 * [Galactic to Bruno Mars](http://static.echonest.com/BoilTheFrog/?src=galactic&dest=bruno%20mars)
 * [Amy Winehouse to Donny Hathaway](http://static.echonest.com/BoilTheFrog/?src=amy%20winehouse&dest=donny%20hathaway)
