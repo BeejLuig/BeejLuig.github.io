@@ -41,7 +41,7 @@ Here is my `.scrap_beers` class method inside the `TopBeers::Scraper` class:
   end
 ```
 
-See the self.create_beers(beers)` method call? That is where we operate on our new array of objects! This method iterates over the `beers` array and creates a new instance of the TopBeers::Beer class, assigning the data within each array element to instance variables of the class instances (how many times can you say 'instance' in one sentence?). It looks like this:
+See the `self.create_beers(beers)` method call? That is where we operate on our new array of objects! This method iterates over the `beers` array and creates a new instance of the TopBeers::Beer class, assigning the data within each array element to instance variables of the class instances (how many times can you say 'instance' in one sentence?). It looks like this:
 
 ```ruby
 def self.create_beers(beers)
