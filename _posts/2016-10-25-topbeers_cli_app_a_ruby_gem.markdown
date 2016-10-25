@@ -117,7 +117,7 @@ All of this planning helped dictate the necessary class and instance methods to 
 
 **Publishing the Gem**
 
-It turns out that publishing a ruby gem is *really* easy. The tricky part is doing it right. I'd like to share a few tips that will keep you from pushing 5 different versions of your gem within a few hours. 
+It turns out that publishing a ruby gem is *really* easy. The tricky part is doing it right. I'd like to share a few tips that will keep you from pushing 5 different versions of your gem within a few hours (like I did). 
 
 1. Thoroughly test your app and check for bugs. It's even better if someone else tries it
 2. Go through your gemspec file and make sure that all of your information is updated
