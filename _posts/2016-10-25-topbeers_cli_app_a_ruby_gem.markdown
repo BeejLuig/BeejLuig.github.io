@@ -4,7 +4,7 @@ title:  "TopBeers CLI App: A Ruby Gem"
 date:   2016-10-25 00:23:20 +0000
 ---
 
-At the end of the unit in object-oriented (OO) ruby, the Flatiron school intorduces a final project challenges us to create an application that scrapes information from a website and present it in the form of a command line interface, or CLI. About a week before I began the project, Flatiron removed the requirement to publish the program as a ruby gem. I opted to publish my gem anyway. Why not give others the oppportunity to enjoy the thing I worked so hard to make?
+At the end of its unit in object-oriented (OO) ruby, the Flatiron school introduces a final project challenges us to create an application that scrapes information from a website and present it in the form of a command line interface, or CLI. About a week before I began the project, Flatiron removed the requirement to publish the program as a ruby gem. I opted to publish my gem anyway. Why not give others the oppportunity to enjoy the thing I worked so hard to make?
 
 **TopBeers CLI App**
 
