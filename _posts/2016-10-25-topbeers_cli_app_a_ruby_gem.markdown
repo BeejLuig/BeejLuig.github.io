@@ -8,7 +8,7 @@ At the end of the unit in object-oriented (OO) ruby, the Flatiron school intordu
 
 **TopBeers CLI App**
 
-The application I created scrapes the data from Beer Advocate's [Top 250 Beers List](https://www.beeradvocate.com/lists/top/), then presents each beer in a list, along with the corresponding brewery and style. 
+The [application](https://rubygems.org/gems/top-beers-cli-app) I created scrapes the data from Beer Advocate's [Top 250 Beers List](https://www.beeradvocate.com/lists/top/), then presents each beer in a list, along with the corresponding brewery and style. 
 
 ![TopBeers CLI App](https://github.com/BeejLuig/BeejLuig.github.io/blob/master/top-beers-screenshot.png?raw=true)
 
