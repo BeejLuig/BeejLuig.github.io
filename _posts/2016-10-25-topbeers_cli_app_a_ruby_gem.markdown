@@ -14,7 +14,7 @@ The [application](https://rubygems.org/gems/top-beers-cli-app) I created scrapes
 
 The user can select a beer by inputting the number on the list to find out more details. It is also possible to see a list of breweries and beer styles, and the beers that belong therein. 
 
-This app was a great opportunity to flex my OO muscles while working on subject matter that I love...BEER.
+This app was a great opportunity to stretch my OO muscles while working on subject matter that I love...BEER!
 
 **Web Scraping**
 
