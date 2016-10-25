@@ -134,5 +134,4 @@ Here is a quick video of TopBeers CLI App in action!
 Your browser does not support the video tag.
 </video>
 
-
-
+See the source code for TopBeers [here](https://github.com/BeejLuig/top-beers-cli-app)
