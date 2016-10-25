@@ -129,7 +129,7 @@ In case you *do* accidentally push a broken version of your gem, the `gem yank` 
 
 Here is a quick video of TopBeers CLI App in action!
 
-<video width="500" controls>
+<video width="500" height="358" controls>
   <source src="https://github.com/BeejLuig/BeejLuig.github.io/blob/master/topbeer-screencast.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
