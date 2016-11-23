@@ -10,7 +10,7 @@ This weekend I had the opportunity to attend [DevFest 2016](https://devfestnyc.c
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Me: I just registered for my first hackathon<br>Co-worker: you play hacky sack??<br>Me: 😂😂😂</p>&mdash; BJ Cantlupe (@BeejLuig) <a href="https://twitter.com/BeejLuig/status/797197271767072769">November 11, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I was extremely nervous going into this event had thoughts of backing out right up to the beginning of the hackathon. In retrospect, I am so glad that I fought off that anxiety. Hopefully sharing my experience will help other budding developers shake any feelings of uncertainty they may have about putting themselves out there.* Just do it*. You'll thank yourself later.
+I was extremely nervous going into this event and had thoughts of backing out right up to the beginning of the hackathon. In retrospect, I am so glad that I fought off that anxiety. Hopefully sharing my experience will help other budding developers shake any feelings of uncertainty they may have about putting themselves out there.* Just do it*. You'll thank yourself later.
 
 This post is particularly long. If you want to skip to the actual takeaways, scroll down or click <a href="#takeaways">here</a>.
 
