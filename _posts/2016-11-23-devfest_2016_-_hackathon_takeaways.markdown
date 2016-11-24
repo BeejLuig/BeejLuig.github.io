@@ -32,8 +32,8 @@ With less than a week to go before the event, I was freaking out. What was I sup
 About 30 minutes before the hackathon began, I was quietly hanging around the organizers, hoping they would help me out. One of them finally came up to me and queried "Are you a team leader?" I said "no, I don't have a team." He asked if I would be willing to be a team leader. I said "maybe next time." He asked then if I could wait for a few minutes because at the moment was only looking for team leaders. I obliged, continuing to feel like an apple at an orange party. 
 
 <div style="text-align: center; width: 100%; background: white;">
-  <img src="http://www.supergraphictees.com/wp-content/uploads/2013/05/retro-apple-orange.jpg" width="300px" />
-	<p style="margin-top: -10px; padding-bottom: 10px;"><em>get it?</em></p>
+  <img src="http://www.supergraphictees.com/wp-content/uploads/2013/05/retro-apple-orange.jpg" width="300px" margin="auto" />
+	<p style="margin-top: -10px; padding-bottom: 10px; text-align: center;"><em>get it?</em></p>
 </div>
 
 Once all of the teams had been organized, I noticed a small group of people kind of standing around in the corner. One of the organizers ushered them towards an open desk in the back of the room. I had a feeling these were the other stragglers. This was my one shot to get a team and do the thing I came to do. I walked up to them and asked if they had just formed and if I could join them. Their answers were yes and yes. YES. I was finally on a team, and they were all web developers. My people! All of the anxiety washed away. Then...
@@ -43,7 +43,7 @@ Once all of the teams had been organized, I noticed a small group of people kind
 Our team leader, Eric, polled everyone to figure out what kind of app we want to make. We collectively liked the idea of creating a productivity-based web application that would support educators or education in some way. A few pitches came out and were quickly shot down. My first idea was to create a cloud-based clipboard for code snippets. I had thought of it on the subway ride over to the event and thought it was pretty clever, that is, until Eric pointed out that it has [already been done](https://gist.github.com/). Woops. I quickly recooped from my first flub and suggested an app idea I had come up with in abstraction a while ago: an online console to help private teachers and tutors schedule and manage their student-base. They liked it! Turns out not all of my ideas are copyrighted by Github. 
 
 <div style="text-align: center; width: 100%;">
-  <img src="https://media.giphy.com/media/xmQh8NQ78y8QU/giphy.gif" width="300px" />
+  <img src="https://media.giphy.com/media/xmQh8NQ78y8QU/giphy.gif" width="300px" margin="auto" />
 </div>
 
 Now that we agreed on an idea, we had to figure out the design and implementation. For that, the team looked to me. The anxiety came back. I thought I remembered saying that I *didn't* want to be in charge of anything. Too late now!
@@ -61,7 +61,7 @@ The rest of day one was a scramble to get *anything* going. We spent a little to
 By day two of the hackathon, we had a name (Teacherly), a logo, OAuth integration and a shell of the user console. We decided to focus on the parts of the app that would be easily demonstrated during our presentation to the hackathon judges (and everyone else). We worked on building out the teacher console including an interactive calendar view, list of active students, and completed lesson prompt. Working out the automated scheduler logic would have been too complicated and time-consuming, so we decided it would just have to be explained in the presentation. Oh, by the way, I was volunteered to do the presentation.
 
 <div style="text-align: center; width: 100%;">
-  <img src="https://media.giphy.com/media/26BRq84rhISRcFVUQ/giphy.gif" width="300px" />
+  <img src="https://media.giphy.com/media/26BRq84rhISRcFVUQ/giphy.gif" width="300px" margin="auto" />
 </div>
 
 I think we really got into a flow during day two. There wasn't much discussion, just coding. I spent a few hours working on the CSS files, fixing style and positioning issues. When all was said and done, we had finished our prototype with an hour to spare! I practiced my demo speech in front of the team a few times. 4pm crept up on us, and it was time to present!
@@ -76,7 +76,7 @@ Considering we were the "straggler" team, started without a plan, and had to scr
 
 I was standing in the back of the room, near the kegerator, congratulating my teammate Jack on a job well done when we hear "2nd runner up, TEAM SUCCESS!" Jack and I shared a confused look for a moment, then we realized...we won! Not first place, of course, but we won something! The most unlikely team from day one somehow got it together and earned a spot on the podium!
 
-<img src="https://lh3.googleusercontent.com/yUSl-x9T-SmdWYPk0ZxivJmbvRXtqNobQPzTnuFl0DR4fakpdaG86srN9kUdgIPfpP5JwYdrOR_3W09-i5qKtFI8o7lscxo3dSGE4Omkx7KoBQjCrslajacg0L9vL7zkvb8skEFRkuxd5zPu-nMLWwwaUkAaVM9stPT3qpZSj-BvEkwG5Q4PzbdsBcIJwAcnhM5brH74jPC_VN4RVSKNa8ngpb6e76fhYBPdEJ65K4mWVngNTpx6W9XmLIJ4aulbb_5sKNW9u4Ju9qtZisHTcUlDhuIOSlL7TH2r1m8jP9RFB_pHUxKbOH_HuEZmitJfGAEWt9nNUtvzLjyem72-bPlclKVs0jjkkcFEtOhImQUCwRgpYErb4uOeJfD_TEnVi13858IpP76bPV6h53-EMjs0CA2vuvGgfV92vXBzGVtt5FICQF5VhWVdhKfnVhrIb98BxfkFa9IeMuEqnska8-6cBjF_2rNvDyXjOX8PluRtS15HCSXKm99aGoyyPXI4Y4NYddvK39vynzudNqYj_Mj7-ZJYNkCEs4B6XdOGeZt2UC5UIOfkGvEPiJvnOffNbN_UHmjRQSlQprfLFGcPcv-QkbXTveBnL4968HnjC-ic26jktg=w1040-h781-no" width="500" alt="We did it!" />
+<img src="https://lh3.googleusercontent.com/yUSl-x9T-SmdWYPk0ZxivJmbvRXtqNobQPzTnuFl0DR4fakpdaG86srN9kUdgIPfpP5JwYdrOR_3W09-i5qKtFI8o7lscxo3dSGE4Omkx7KoBQjCrslajacg0L9vL7zkvb8skEFRkuxd5zPu-nMLWwwaUkAaVM9stPT3qpZSj-BvEkwG5Q4PzbdsBcIJwAcnhM5brH74jPC_VN4RVSKNa8ngpb6e76fhYBPdEJ65K4mWVngNTpx6W9XmLIJ4aulbb_5sKNW9u4Ju9qtZisHTcUlDhuIOSlL7TH2r1m8jP9RFB_pHUxKbOH_HuEZmitJfGAEWt9nNUtvzLjyem72-bPlclKVs0jjkkcFEtOhImQUCwRgpYErb4uOeJfD_TEnVi13858IpP76bPV6h53-EMjs0CA2vuvGgfV92vXBzGVtt5FICQF5VhWVdhKfnVhrIb98BxfkFa9IeMuEqnska8-6cBjF_2rNvDyXjOX8PluRtS15HCSXKm99aGoyyPXI4Y4NYddvK39vynzudNqYj_Mj7-ZJYNkCEs4B6XdOGeZt2UC5UIOfkGvEPiJvnOffNbN_UHmjRQSlQprfLFGcPcv-QkbXTveBnL4968HnjC-ic26jktg=w1040-h781-no" width="500" alt="We did it!" margin="auto" />
 
 `🏆🏆🏆`
 
@@ -102,7 +102,7 @@ Thanks for reading! If you want to chat with me about my hackathon experience, f
 
 Below is a homepage screenshot of my team's web app, Teacherly
 
-<img src="/teacherly-screenshot.png" max-width="500" />
+<img src="/teacherly-screenshot.png" max-width="500" margin="auto" />
 
 
 
