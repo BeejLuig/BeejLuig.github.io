@@ -76,7 +76,7 @@ Considering we were the "straggler" team, started without a plan, and had to scr
 
 I was standing in the back of the room, near the kegerator, congratulating my teammate Jack on a job well done when we hear "2nd runner up, TEAM SUCCESS!" Jack and I shared a confused look for a moment, then we realized...we won! Not first place, of course, but we won something! The most unlikely team from day one somehow got it together and earned a spot on the podium!
 
-<img src="https://photos.google.com/photo/AF1QipOKQDzl0Avhuf-hTdXWO0D3ua-FWV_ko2ZG71Hk" width="500" alt="We did it!" />
+<img src="https://photos.google.com/photo/AF1QipOKQDzl0Avhuf-hTdXWO0D3ua-FWV_ko2ZG71Hk" alt="We did it!" />
 
 `🏆🏆🏆`
 
