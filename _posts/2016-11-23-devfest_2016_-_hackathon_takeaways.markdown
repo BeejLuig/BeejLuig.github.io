@@ -78,7 +78,6 @@ I was standing in the back of the room, near the kegerator, congratulating my te
 
 <img src="https://lh3.googleusercontent.com/yUSl-x9T-SmdWYPk0ZxivJmbvRXtqNobQPzTnuFl0DR4fakpdaG86srN9kUdgIPfpP5JwYdrOR_3W09-i5qKtFI8o7lscxo3dSGE4Omkx7KoBQjCrslajacg0L9vL7zkvb8skEFRkuxd5zPu-nMLWwwaUkAaVM9stPT3qpZSj-BvEkwG5Q4PzbdsBcIJwAcnhM5brH74jPC_VN4RVSKNa8ngpb6e76fhYBPdEJ65K4mWVngNTpx6W9XmLIJ4aulbb_5sKNW9u4Ju9qtZisHTcUlDhuIOSlL7TH2r1m8jP9RFB_pHUxKbOH_HuEZmitJfGAEWt9nNUtvzLjyem72-bPlclKVs0jjkkcFEtOhImQUCwRgpYErb4uOeJfD_TEnVi13858IpP76bPV6h53-EMjs0CA2vuvGgfV92vXBzGVtt5FICQF5VhWVdhKfnVhrIb98BxfkFa9IeMuEqnska8-6cBjF_2rNvDyXjOX8PluRtS15HCSXKm99aGoyyPXI4Y4NYddvK39vynzudNqYj_Mj7-ZJYNkCEs4B6XdOGeZt2UC5UIOfkGvEPiJvnOffNbN_UHmjRQSlQprfLFGcPcv-QkbXTveBnL4968HnjC-ic26jktg=w1040-h781-no" width="500" alt="We did it!" margin="auto" />
 
-<img src="/img/hackathon-winners-second-runner-up.jpg" alt="Judges on the left, team Success on the right" />
 <p text-align="center">🏆🏆🏆</p>
 
 **<a name="takeaways">Takeaways</a>**
