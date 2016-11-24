@@ -102,7 +102,7 @@ Thanks for reading! If you want to chat with me about my hackathon experience, f
 
 Below is a homepage screenshot of my team's web app, Teacherly
 
-<img src="/teacherly-screenshot.png" width="500" />
+<img src="/teacherly-screenshot.png" max-width="500" />
 
 
 
