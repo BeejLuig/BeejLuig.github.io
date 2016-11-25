@@ -74,7 +74,7 @@ I was really nervous going into the presentation, but I'm not exactly a newbie t
 
 Considering we were the "straggler" team, started without a plan, and had to scramble to get a half-decent web app together, I frequented the kegerator right after presenting. There was no way we would win; just making it to the finish line was a win in itself. I figured I'd hang around to find out who won out of interest and respect. There were a ton of great ideas put out there, and all of the prototypes were really impressive. 
 
-I was standing in the back of the room, near the kegerator, congratulating my teammate Jack on a job well done when we hear "2nd runner up, TEAM SUCCESS!" Jack and I shared a confused look for a moment, then we realized...we won! Not first place, of course, but we won something! The most unlikely team from day one somehow got it together and earned a spot on the podium!
+I was standing in the back of the room, near the kegerator, congratulating my teammate Jack on a job well done when we hear "2nd runner up, TEAM SUCCESS!" Jack and I shared a confused look for a moment, then we realized...we won! Not first place, of course, but we won something. The most unlikely team from day one somehow got it together and earned a spot on the podium!
 
 <figure style="text-align: center;">
 	<img src="https://lh3.googleusercontent.com/yUSl-x9T-SmdWYPk0ZxivJmbvRXtqNobQPzTnuFl0DR4fakpdaG86srN9kUdgIPfpP5JwYdrOR_3W09-i5qKtFI8o7lscxo3dSGE4Omkx7KoBQjCrslajacg0L9vL7zkvb8skEFRkuxd5zPu-nMLWwwaUkAaVM9stPT3qpZSj-BvEkwG5Q4PzbdsBcIJwAcnhM5brH74jPC_VN4RVSKNa8ngpb6e76fhYBPdEJ65K4mWVngNTpx6W9XmLIJ4aulbb_5sKNW9u4Ju9qtZisHTcUlDhuIOSlL7TH2r1m8jP9RFB_pHUxKbOH_HuEZmitJfGAEWt9nNUtvzLjyem72-bPlclKVs0jjkkcFEtOhImQUCwRgpYErb4uOeJfD_TEnVi13858IpP76bPV6h53-EMjs0CA2vuvGgfV92vXBzGVtt5FICQF5VhWVdhKfnVhrIb98BxfkFa9IeMuEqnska8-6cBjF_2rNvDyXjOX8PluRtS15HCSXKm99aGoyyPXI4Y4NYddvK39vynzudNqYj_Mj7-ZJYNkCEs4B6XdOGeZt2UC5UIOfkGvEPiJvnOffNbN_UHmjRQSlQprfLFGcPcv-QkbXTveBnL4968HnjC-ic26jktg=w1040-h781-no" width="500" alt="We did it!" margin="auto" />
@@ -87,19 +87,19 @@ I was standing in the back of the room, near the kegerator, congratulating my te
 
 If you skipped the long story, you ended up here. Congratulations, your attention span is as short as mine! Without further ado, here are my takeaways from the DevFest2016 hackathon, in no particular order:
 
-* *Just do it*: If you want to participate in a hackathon but aren't sure if you are ready, guess what: you are. Experience level matters very little. Everyone is there to learn a ton, make something cool and be awesome to each other
+* *Just do it*: If you want to participate in a hackathon but aren't sure if you are ready, guess what: you are. Experience level matters very little. Everyone is there to learn a ton, make something cool and be awesome to each other.
 
 * *Come prepared*: If you have an idea for an app, make some notes and come up with details. You'll never know when it'll come in handy. 
 
-* *Study up*: If a hackathon has some sort of framework or language requirement, give yourself ample time to research. Anything helps
+* *Study up*: If a hackathon has some sort of framework or language requirement, give yourself ample time to research. Anything helps.
 
 * *Stay positive*: In the middle of a hackathon, it's easy to feel like things aren't coming together or you're not gonna make it. You will. 
 
-* *Ask for help*: When you get stuck, there are usually people around you who are happy to share their expertise with you. A hackathon is meant to be a learning experience. Even your competitors may be helpful
+* *Ask for help*: When you get stuck, there are usually people around you who are happy to share their expertise with you. A hackathon is meant to be a learning experience. Even your competitors may be helpful.
 
 * *Remember why you are there*: Hackathons are draining and can be emotional. No matter what happens though, you will meet new people, learn new things, work hard and ultimately succeed in putting together a new idea! That's awesome. 
 
-* *Believe in yourself*: It's sappy, I know. But it's true! You are awesome. If you try your best, others will see the best in you. You are awesome! 
+* *Believe in yourself*: It's sappy, I know. But it's true! You are awesome. If you try your best, others will see the best in you.
 
 Thanks for reading! If you want to chat with me about my hackathon experience, feel free to find me on [Twitter](https://twitter.com/beejluig). Flatiron students can find me on Slack!
 
