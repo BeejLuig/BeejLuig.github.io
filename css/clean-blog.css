@@ -443,3 +443,7 @@ body {
 img {
   margin: auto; 
 }
+
+.img-responsive {
+  margin: auto; 
+}
