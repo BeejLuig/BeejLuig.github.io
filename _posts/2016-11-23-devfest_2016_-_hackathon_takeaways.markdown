@@ -31,10 +31,10 @@ With less than a week to go before the event, I was freaking out. What was I sup
 
 About 30 minutes before the hackathon began, I was quietly hanging around the organizers, hoping they would help me out. One of them finally came up to me and queried "Are you a team leader?" I said "no, I don't have a team." He asked if I would be willing to be a team leader. I said "maybe next time." He asked then if I could wait for a few minutes because at the moment was only looking for team leaders. I obliged, continuing to feel like an apple at an orange party. 
 
-<div style="text-align: center; width: 100%; background: white;">
+<figure style="text-align: center; width: 100%; background: white;">
   <img src="http://www.supergraphictees.com/wp-content/uploads/2013/05/retro-apple-orange.jpg" width="300px" margin="auto" />
-	<p style="margin-top: -10px; padding-bottom: 10px; text-align: center;"><em>get it?</em></p>
-</div>
+	<figcaption style="margin-top: -10px; padding-bottom: 10px; text-align: center;"><em>get it?</em></figcaption>
+</figure>
 
 Once all of the teams had been organized, I noticed a small group of people kind of standing around in the corner. One of the organizers ushered them towards an open desk in the back of the room. I had a feeling these were the other stragglers. This was my one shot to get a team and do the thing I came to do. I walked up to them and asked if they had just formed and if I could join them. Their answers were yes and yes. YES. I was finally on a team, and they were all web developers. My people! All of the anxiety washed away. Then...
 
