@@ -24,29 +24,39 @@ My MVC outline for this project is below. The outline will be updated as the pro
   has_many :concerts #not sure if this is necessary
 
   instance variables
+  
     email
+    
     password
 
 **Artist**  
 
   belongs_to :user  
+  
   has_many :concerts  
 
-  instance variables
+  instance variables - 
+  
     name
 
-  instance methods - 
+  instance methods -  
+  
     slug
 
 **Concert**
 
   belongs_to :user
+  
   belongs_to :artist
 
   instance variables - 
+  
     date
+    
     time
+    
     location
+    
     ticket_price
 
 **VIEWS**
@@ -88,6 +98,7 @@ sign up
 helper methods
 
   current_user
+  
   logged_in?
 
 **UsersController**
