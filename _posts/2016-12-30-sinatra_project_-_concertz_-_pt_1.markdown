@@ -72,7 +72,7 @@ My MVC outline for this project is below. The outline will be updated as the pro
 `signup.erb` - Sign Up Page, includes form with email/password for 
 sign up
 
-`/users/show.erb` - concert user information. Includes artists and concerts. Artists headers link to artist page. Include "create artists" button
+`/users/show.erb` - show user information. Includes artists and concerts. Artists headers link to artist page. Include "create artists" button
 
 **Artists**
 
