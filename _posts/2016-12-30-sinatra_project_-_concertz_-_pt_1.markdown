@@ -19,7 +19,7 @@ My MVC outline for this project is below. The outline will be updated as the pro
 
 **User**
 
-  has_many :artists
+  has_many :artists  
   has_many :concerts #not sure if this is necessary
 
   instance variables
