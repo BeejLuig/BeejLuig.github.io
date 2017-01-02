@@ -28,6 +28,10 @@ My MVC outline for this project is below. The outline will be updated as the pro
     email
     
     password
+    
+   instance methods
+   
+     authenticate
 
 **Artist**  
 
@@ -35,25 +39,27 @@ My MVC outline for this project is below. The outline will be updated as the pro
   
   has_many :concerts  
 
-  instance variables - 
+  instance variables
   
     name
 
-  instance methods -  
+  instance methods 
   
     slug
+    
+  class methods 
+  
+    find_by_slug
 
 **Concert**
-
-  belongs_to :user
   
   belongs_to :artist
-
-  instance variables - 
   
-    date
-    
-    time
+  has_one :user, through: artist
+
+  instance variables
+  
+    concert_date
     
     location
     
