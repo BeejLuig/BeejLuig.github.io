@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sinatra Project - Concertz - Pt. 2"
+title:  "Sinatra Project - Concertz - part 2"
 date:   2017-01-04 16:16:23 +0000
 ---
 
