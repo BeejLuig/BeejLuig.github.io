@@ -47,7 +47,7 @@ Lastly, I think I could have done a little better with the seed data. If you che
 
 I'm going to try to add a "takeaway" section to any relevant posts, since it seems people like [that sort of thing](http://blog.flatironschool.com/7-hackathon-takeaways-from-devfest-2016/). For this project, my takeaways are thus:
 
-1. Time is of the essence, but it's not too important to skip on due diligence
+1. Time is of the essence, but it's not too important to skip out on due diligence
 2. If if feels like you should add a feature, just do it. It's easier to take it out later if deemed unnecessary
 3. Put some love into your project. Even if you never think about it again, it's still your project and your name is still on it
 
