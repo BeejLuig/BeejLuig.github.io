@@ -13,7 +13,7 @@ After completing my Sinatra project, I was so excited to jump into learning Ruby
 
 I was very pleased with the way this project came out. I put a little extra love into it and made sure that each page looked pretty. 
 
-<img src="/img/artist-page.png" alt="Artist Page Screenshot" />
+<img src="http://bjcantlupe.com/img/artist-page.png" alt="Artist Page Screenshot" />
 oohhh ahhh
 
 To review the functionality of the app, we have: 
