@@ -15,7 +15,7 @@ I was very pleased with the way this project came out. I put a little extra love
 
 <figure>
 <img src="http://bjcantlupe.com/img/artist-page.png" alt="Artist Page Screenshot" style="max-width: 500px; border: 2px solid gray;" />
-<figcaption>oohhh ahhh</figcaption>
+<figcaption style="text-align: center;">oohhh ahhh</figcaption>
 </figure>
 
 To review the functionality of the app, we have: 
