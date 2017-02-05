@@ -5,7 +5,7 @@ date:   2017-02-04 18:10:28 +0000
 ---
 
 
-*This is part 3 of a multi-part series. If you haven’t already, check out parts 1 and 2.*
+*This is part 3 of a multi-part series. If you haven’t already, check out parts [1](http://bjcantlupe.com/2016/12/30/sinatra_project_-_concertz_-_pt_1/) and [2](http://bjcantlupe.com/2017/01/04/sinatra_project_-_concertz_-_pt_2/).*
 
 After completing my Sinatra project, I was so excited to jump into learning Ruby on Rails that I completely forgot about finishing this blog series! Since it has been so long between posts, I can barely remember where I left off in the process, so I will keep this last post short and sweet. 
 
