@@ -18,7 +18,7 @@ My latest project for the Flatiron School's online verified program is complete!
 I opted to utilize Devise to manage registering new users and managing sessions. I only needed a user to login with an email and password, and the Devise defaults suited this nicely. Devise also plays well with Omniauth (kinda), which was nice because Omniauth was a requirement for this project. I used Omniauth to enable Google OAuth2 sign-ins. It would have been nice to authorize a single user via username/password OR Google OAuth, but it was a headache that I decided to avoid. 
 
 <div class="embed-responsive">
-  <video controls="" autoplay="" name="media" class="embed-responsive-item">
+  <video controls="" autoplay="" name="media">
     <source src="http://bjcantlupe.com/img/flash-cards-omniauth.mp4" type="video/mp4">
   </video>
 </div>
