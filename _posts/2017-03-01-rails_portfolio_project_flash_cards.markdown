@@ -24,7 +24,7 @@ I opted to utilize [Devise](https://github.com/plataformatec/devise) to manage r
   <figcaption><small>Logging in with Omniauth</small></figcaption>
 </figure>
 
-Unfortunately in development mode, the client ID and secret key required to utilize Omniauth don't like to stick around for very long. I used the Dot Env gem to hold my ENV variables. If you decide to use this, don't forget to add you `.env` file to `.gitignore`. You don't want strangers seeing those variables!
+Unfortunately in development mode, the client ID and secret key required to utilize Omniauth don't like to stick around for very long. I used the [Dot Env](https://github.com/bkeepers/dotenv) gem to hold my ENV variables. If you decide to use this, don't forget to add your `.env` file to `.gitignore`. You don't want strangers seeing those variables!
 
 **Models**
 
@@ -74,7 +74,7 @@ class Folder < ApplicationRecord
 end
 ```
 
-Not tooo complicated. The most important relationship is the one between `StudySet` and `User`. If you look in the `StudySet` class, you will see this line:
+Not too complicated. The most important relationship is the one between `StudySet` and `User`. If you look in the `StudySet` class, you will see this line:
 
 `belongs_to :owner, class_name: "User"`
 
