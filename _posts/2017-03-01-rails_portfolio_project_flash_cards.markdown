@@ -281,4 +281,6 @@ And that's it! The results of the search will be visible on the page. If the res
 
 **Views**
 
-I'm actually not going to get too into the view yet. I will be updating this application for my next project (JavaScript and jQuery). It will make more sense to write about the front-end then. In the meantime, I'll let the pictures speak for themselves (when I put them up).
+I'm actually not going to get too into the view yet. I will be updating this application for my next project (JavaScript and jQuery). It will make more sense to write about the front-end then. In the meantime, I'll let the images and videos above speak for themselves.
+
+The full video demonstration of the application will be added later today!
