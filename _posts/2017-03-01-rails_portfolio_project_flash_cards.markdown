@@ -9,7 +9,7 @@ My latest project for the Flatiron School's online verified program is complete!
 
 **Flash Cards**
 
-<img class="img img-responsive" src="https://raw.githubusercontent.com/BeejLuig/BeejLuig.github.io/master/img/flash-cards-homepage.png" />
+<img class="img img-responsive" alt="Flash Cards homepage" src="https://raw.githubusercontent.com/BeejLuig/BeejLuig.github.io/master/img/flash-cards-homepage.png" />
 
 *Flash Cards* is a web application for viewing and managing sets of flash cards, dubbed "study sets." A guest can see any study set and view user profiles. A logged in user can create manage their own study sets, organize study sets in folders, and copy other user's study sets into their own collection. A user can also take advantage of the "study mode" feature. 
 
@@ -81,7 +81,14 @@ Before that line, you can see this:
 
 `has_and_belongs_to_many :studiers, class_name: "User" `
 	
-Users can see and interact with any study set. At the bottom of every study set is a "Study Mode" button. Whenever a unique user presses that button on a study set, that user is added to the study set's `studiers` array. This is why `StudySet` has many `:studiers`. A user should also know about which study sets he/she has studied. Users can then easily find recent study sets in their account without copying them. I still need to add that feature :p.
+Users can see and interact with any study set. At the bottom of every study set is a "Study Mode" button. Whenever a unique user presses that button on a study set, that user is added to the study set's `studiers` array. This is why `StudySet` has many `:studiers`.
+
+<figure>
+  <img src="BeejLuig.github.io/img/flash-cards-studymode-button.png" class="img img-responsive" alt="study mode button">
+  <figcaption>Engage study mode!</figcaption>
+</figure>
+
+A user should also know about which study sets he/she has studied. Users can then easily find recent study sets in their account without copying them. I still need to add that feature :p.
 	
 **Controllers and routes**
 	
