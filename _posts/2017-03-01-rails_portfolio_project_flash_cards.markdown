@@ -17,6 +17,10 @@ My latest project for the Flatiron School's online verified program is complete!
 
 I opted to utilize Devise to manage registering new users and managing sessions. I only needed a user to login with an email and password, and the Devise defaults suited this nicely. Devise also plays well with Omniauth (kinda), which was nice because Omniauth was a requirement for this project. I used Omniauth to enable Google OAuth2 sign-ins. It would have been nice to authorize a single user via username/password OR Google OAuth, but it was a headache that I decided to avoid. 
 
+<div class="embed-responsive">
+  <video class="embed-responsive-item" src="BeejLuig.github.io/img/flash-cards-omniauth.mp4"></video>
+</div>
+
 Unfortunately in development mode, the client ID and secret key required to utilize Omniauth don't like to stick around for very long. I used the Dot Env gem to hold my ENV variables. If you decide to use this, don't forget to add you `.env` file to `.gitignore`. You don't want strangers seeing those variables!
 
 **Models**
