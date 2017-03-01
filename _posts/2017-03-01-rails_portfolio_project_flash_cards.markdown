@@ -272,6 +272,13 @@ Lastly, we have the `#study_mode` action. This is attached to the button I menti
 
 If a guest presses the button, the page will reload with a flash alert telling them to sign in. A logged-in user will successfully enter *study mode*. The `add_studiers` helper is called, and the `:show` page reloads, this time displaying an alternate view.
 
+<figure style="margin: 0 auto;text-align:center;">
+  <video controls="" autoplay="" name="media" style="max-width: 100%;">
+    <source src="http://bjcantlupe.com/img/flash-cards-studymode-example.mp4" type="video/mp4">
+  </video>
+  <figcaption><small>Study mode engage, for real this time!</small></figcaption>
+</figure>
+
 Here is the `#add_studiers(user)` method
 
 ```ruby
