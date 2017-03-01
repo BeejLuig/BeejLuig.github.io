@@ -9,6 +9,8 @@ My latest project for the Flatiron School's online verified program is complete!
 
 **Flash Cards**
 
+<img class="img img-responsive" src="https://raw.githubusercontent.com/BeejLuig/BeejLuig.github.io/master/img/flash-cards-homepage.png" />
+
 *Flash Cards* is a web application for viewing and managing sets of flash cards, dubbed "study sets." A guest can see any study set and view user profiles. A logged in user can create manage their own study sets, organize study sets in folders, and copy other user's study sets into their own collection. A user can also take advantage of the "study mode" feature. 
 
 **Managing User Sessions with Omniauth and Devise**
