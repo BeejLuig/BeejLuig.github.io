@@ -23,7 +23,7 @@ There are four models for this application:
 
 User
 
-```
+```ruby
 class User < ApplicationRecord
   has_many :folders
   has_and_belongs_to_many :study_sets
@@ -33,7 +33,7 @@ end
 
 StudySet
 
-```
+```ruby
 class StudySet < ApplicationRecord
   has_and_belongs_to_many :studiers, class_name: "User"
   belongs_to :owner, class_name: "User"
@@ -48,7 +48,7 @@ end
 
 FlashCard
 
-```
+```ruby
 class FlashCard < ApplicationRecord
   belongs_to :study_set
   validates :term, :definition, presence: true
@@ -57,7 +57,7 @@ end
 
 Folder
 
-```
+```ruby
 class Folder < ApplicationRecord
   belongs_to :user
   has_and_belongs_to_many :study_sets
@@ -81,7 +81,7 @@ Users can see and interact with any study set. At the bottom of every study set 
 	
 Besides the automatically generated Devise controller and `ApplicationController`, there are four controllers for this app. The first is the `Users::OmniauthCallbacksController`. This controller kicks in when a user attempts to login by pressing the GoogleOAuth2 link. 
 	
-```
+```ruby
 class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
 
   def google_oauth2
@@ -105,7 +105,7 @@ end
 	
 There are two actions here. One is for a successful callback, and the second is for a failure. If you are trying to use Omniauth with Devise, take a good look at those action methods. This is necessary for Omniauth to work with Devise, and it was sort of a pain to figure out. A devise sanitizer is also necessary to permit specific keys from the callback hash. This is what I have in my `ApplicationController`:
 
-```
+```ruby
 protected
 
 def configure_permitted_parameters
@@ -117,7 +117,7 @@ This was necessary so I could pull the Google profile image from `request.env["o
 
 `UsersController` has one lowly action.
 
-```
+```ruby
 class UsersController < ApplicationController
   before_action :authenticate_user!, except: [:show]
 
@@ -139,7 +139,7 @@ Take note of the top line there:
 
 As mentioned before, user authentication starts at the top, using the `authenticate_user!` helper method. For some actions, like `#create`, `#update` and `#destroy`, it is necessary to ensure that the current user is the same as the user attached to the model being manipulated. I created a couple helpers in `ApplicationController` for that.
 
-```
+```ruby
   def user_verified?
     params[:user_id].to_i == current_user.id
   end
@@ -152,7 +152,7 @@ As mentioned before, user authentication starts at the top, using the `authentic
 
 The general controller logic looks like this:
 
-```
+```ruby
 def create
  if user_verified?
   #some code 
@@ -166,7 +166,7 @@ Nice and simple! Nothing too crazy there. I would like to point out a few extra 
 
 Let's start with `#sort`. In a study set show page, there is a drop-down select with an option to sort flash cards alphabetically. On change, the sort option triggers the `#sort` action, pushing the option value to the `params` hash.
 
-```
+```ruby
   def sort
     @study_set = StudySet.find_by_id(params[:id])
     @sort ||= params[:sort]
@@ -181,7 +181,7 @@ Let's start with `#sort`. In a study set show page, there is a drop-down select 
 
 Then we have the `#copy` action. If a user is viewing a study set show page created by another user, a "Copy this" link appears in the middle of the page. When clicked, the `#copy` action is triggered. 
 
-```
+```ruby
   def copy
     @study_set = StudySet.find_by_id(params[:id])
     @study_set.make_copy(current_user)
@@ -191,7 +191,7 @@ Then we have the `#copy` action. If a user is viewing a study set show page crea
 
 `make_copy(current_user)` is a helper method I added in the `StudySet` model. It looks like this:
 
-```
+```ruby
   def make_copy(user)
     copy = self.dup
     self.flash_cards.each do |flash_card|
@@ -208,7 +208,7 @@ The `#dup` method duplicates all of the attributes of an object. In the case of 
 
 Lastly, we have the `#study_mode` action. This is attached to the button I mentioned earlier. For this button, I wanted a different authentication behavior. 
 
-```
+```ruby
   def study_mode
     @study_set = StudySet.find_by_id(params[:id])
     if !current_user
@@ -228,7 +228,7 @@ If a guest presses the button, the page will reload with a flash alert telling t
 
 Here is the `#add_studiers(user)` method
 
-```
+```ruby
   def add_studier(user)
     if !self.studiers.include?(user)
       self.studiers << user
@@ -243,7 +243,7 @@ The method checks to make sure the current user has not already been added to th
 
 Ok, so there is one more thing I want to add, because this was a feature that I assumed would be more difficult than it actually was. On the home page is a search form. This searches `StudySet.all` with a class-level query on the `:title` and `:description` attributes. Here is the search-form:
 
-```
+```ruby
 <div class="search-bar">
   <%= form_tag(root_path, method: "get", id: "search-form") do %>
     <div class="input-group">
@@ -258,7 +258,7 @@ Ok, so there is one more thing I want to add, because this was a feature that I 
 
 This form basically just sends the inputted text to the params hash in `params[:search]`. Then, in `study_sets#index`:
 
-```
+```ruby
   def index
     @study_sets = StudySet.all
     if params[:search]
@@ -271,7 +271,7 @@ This form basically just sends the inputted text to the params hash in `params[:
 
 There is a check for the existence of `params[:search]`. If there are search params, the @study_sets instance variable is set to the results of the `StudySet.search(params[:search])` query. This class-level query looks like this:
 
-```
+```ruby
   def self.search(search)
     where("title LIKE ? OR description LIKE ?", "%#{search}%", "%#{search}%")
   end
