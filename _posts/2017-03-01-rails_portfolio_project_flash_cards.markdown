@@ -332,6 +332,13 @@ There is a check for the existence of `params[:search]`. If there are search par
 
 And that's it! The results of the search will be visible on the page. If the results are empty, the page will show a message and a "back" link. 
 
+<figure style="margin: 0 auto;text-align:center;">
+  <video controls="" autoplay="" name="media" style="max-width: 100%;">
+    <source src="http://bjcantlupe.com/img/flash-cards-search-example.mp4" type="video/mp4">
+  </video>
+  <figcaption><small>Searching on the homepage</small></figcaption>
+</figure>
+
 **Views**
 
 I'm actually not going to get too into the view yet. I will be updating this application for my next project (JavaScript and jQuery). It will make more sense to write about the front-end then. In the meantime, I'll let the images and videos above speak for themselves.
