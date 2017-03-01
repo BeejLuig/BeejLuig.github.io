@@ -189,7 +189,7 @@ Nice and simple! Nothing too crazy there.
 
 <figure style="margin: 0 auto;text-align:center;">
   <video controls="" autoplay="" name="media" style="max-width: 100%;">
-    <source src="BeejLuig.github.io/img/flash-cards-user-validation-example.mp4" type="video/mp4">
+    <source src="http://bjcantlupe.com/img/flash-cards-user-validation-example.mp4" type="video/mp4">
   </video>
   <figcaption><small>User verification</small></figcaption>
 </figure>
