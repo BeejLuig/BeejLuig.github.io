@@ -157,6 +157,7 @@ Take note of the top line there:
   </video>
   <figcaption><small>The <code>authenticate_user!</code> helper at work</small></figcaption>
 </figure>
+
 `FoldersController` and `StudySetsController` look pretty similar, and they are pretty long. So, instead of sharing both completely, I'm just going to explain the pattern.
 
 As mentioned before, user authentication starts at the top, using the `authenticate_user!` helper method. For some actions, like `#create`, `#update` and `#destroy`, it is necessary to ensure that the current user is the same as the user attached to the model being manipulated. I created a couple helpers in `ApplicationController` for that.
@@ -184,7 +185,16 @@ def create
 end
 ```
 
-Nice and simple! Nothing too crazy there. I would like to point out a few extra actions in `StudySetsController`.
+Nice and simple! Nothing too crazy there. 
+
+<figure style="margin: 0 auto;text-align:center;">
+  <video controls="" autoplay="" name="media" style="max-width: 100%;">
+    <source src="BeejLuig.github.io/img/flash-cards-user-validation-example.mp4" type="video/mp4">
+  </video>
+  <figcaption><small>User verification</small></figcaption>
+</figure>
+
+Now, I am going to point out a few extra actions in `StudySetsController`.
 
 Let's start with `#sort`. In a study set show page, there is a drop-down select with an option to sort flash cards alphabetically. On change, the sort option triggers the `#sort` action, pushing the option value to the `params` hash.
 
