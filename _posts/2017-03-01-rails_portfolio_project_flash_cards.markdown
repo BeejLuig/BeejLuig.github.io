@@ -212,12 +212,12 @@ Let's start with `#sort`. In a study set show page, there is a drop-down select 
 ```
 <figure style="margin: 0 auto;text-align:center;">
   <figcaption><small>Not sorted</small></figcaption>
-  <img src="http://bjcantlupe.com/img/flash-cards-sort-before.png" class="img img-responsive" alt="study mode button">
+  <img src="http://bjcantlupe.com/img/flash-cards-sort-before.png" class="img img-responsive" alt="unsorted flash cards">
 </figure>
 
 <figure style="margin: 0 auto;text-align:center;">
   <figcaption><small>Sorted!</small></figcaption>
-  <img src="http://bjcantlupe.com/img/flash-cards-sort-after.png" class="img img-responsive" alt="study mode button">
+  <img src="http://bjcantlupe.com/img/flash-cards-sort-after.png" class="img img-responsive" alt="sorted flash cards">
 </figure>
 
 Then we have the `#copy` action. If a user is viewing a study set show page created by another user, a "Copy this" link appears in the middle of the page. When clicked, the `#copy` action is triggered. 
@@ -246,6 +246,11 @@ Then we have the `#copy` action. If a user is viewing a study set show page crea
 ```
 
 The `#dup` method duplicates all of the attributes of an object. In the case of `StudySet`, I need to `dup` the `study_set` instance and all of the `flash_cards` belonging to `study_set`.
+
+<figure style="margin: 0 auto;text-align:center;">
+  <img src="http://bjcantlupe.com/img/flash-cards-sort-after.png" class="img img-responsive" alt="copy this">
+  <figcaption><small>Copy this</small></figcaption>
+</figure>
 
 Lastly, we have the `#study_mode` action. This is attached to the button I mentioned earlier. For this button, I wanted a different authentication behavior. 
 
