@@ -122,8 +122,8 @@ There are two actions here. One is for a successful callback, and the second is 
 protected
 
 def configure_permitted_parameters
-
-devise_parameter_sanitizer.permit(:account_update, keys: [:image])
+  devise_parameter_sanitizer.permit(:account_update, keys: [:image])
+end
 ```
 
 This was necessary so I could pull the Google profile image from `request.env["omniauth.auth"]`.
