@@ -101,7 +101,7 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
   end
 
 end
-	```
+```
 	
 There are two actions here. One is for a successful callback, and the second is for a failure. If you are trying to use Omniauth with Devise, take a good look at those action methods. This is necessary for Omniauth to work with Devise, and it was sort of a pain to figure out. A devise sanitizer is also necessary to permit specific keys from the callback hash. This is what I have in my `ApplicationController`:
 
