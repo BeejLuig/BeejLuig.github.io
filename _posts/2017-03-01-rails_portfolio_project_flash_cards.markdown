@@ -15,7 +15,7 @@ My latest project for the Flatiron School's online verified program is complete!
 
 I opted to utilize Devise to manage registering new users and managing sessions. I only needed a user to login with an email and password, and the Devise defaults suited this nicely. Devise also plays well with Omniauth (kinda), which was nice because Omniauth was a requirement for this project. I used Omniauth to enable Google OAuth2 sign-ins. It would have been nice to authorize a single user via username/password OR Google OAuth, but it was a headache that I decided to avoid. 
 
-Unfortunately in development mode, the client ID and secret key required to utilize Omniauth don't like to stick around for very long. I used the Dot Env gem to hold my ENV variables. If you decide to use this, don't forget to add you `.env` file to `.gitignore`. You don't want random strangers seeing those variables!
+Unfortunately in development mode, the client ID and secret key required to utilize Omniauth don't like to stick around for very long. I used the Dot Env gem to hold my ENV variables. If you decide to use this, don't forget to add you `.env` file to `.gitignore`. You don't want strangers seeing those variables!
 
 **Models**
 
@@ -24,11 +24,11 @@ There are four models for this application:
 User
 
 ```ruby
-  class User < ApplicationRecord
-    has_many :folders
-    has_and_belongs_to_many :study_sets
-    has_many :flash_cards, through: :study_sets, source: :flash_cards
-  end
+class User < ApplicationRecord
+  has_many :folders
+  has_and_belongs_to_many :study_sets
+  has_many :flash_cards, through: :study_sets, source: :flash_cards
+end
 ```
 
 StudySet
