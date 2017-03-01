@@ -194,7 +194,7 @@ Nice and simple! Nothing too crazy there.
   <figcaption><small>User verification</small></figcaption>
 </figure>
 
-Now, I am going to point out a few extra actions in `StudySetsController`.
+Now, I want to point out a few extra actions in `StudySetsController`.
 
 Let's start with `#sort`. In a study set show page, there is a drop-down select with an option to sort flash cards alphabetically. On change, the sort option triggers the `#sort` action, pushing the option value to the `params` hash.
 
@@ -210,6 +210,15 @@ Let's start with `#sort`. In a study set show page, there is a drop-down select 
     render :show
   end
 ```
+<figure style="margin: 0 auto;text-align:center;">
+  <img src="http://bjcantlupe.com/img/flash-cards-sort-before.png" class="img img-responsive" alt="study mode button">
+  <figcaption><small>Not sorted</small></figcaption>
+</figure>
+
+<figure style="margin: 0 auto;text-align:center;">
+  <img src="http://bjcantlupe.com/img/flash-cards-sort-after.png" class="img img-responsive" alt="study mode button">
+  <figcaption><small>Sorted!</small></figcaption>
+</figure>
 
 Then we have the `#copy` action. If a user is viewing a study set show page created by another user, a "Copy this" link appears in the middle of the page. When clicked, the `#copy` action is triggered. 
 
