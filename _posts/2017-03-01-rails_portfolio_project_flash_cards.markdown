@@ -243,7 +243,7 @@ The method checks to make sure the current user has not already been added to th
 
 Ok, so there is one more thing I want to add, because this was a feature that I assumed would be more difficult than it actually was. On the home page is a search form. This searches `StudySet.all` with a class-level query on the `:title` and `:description` attributes. Here is the search-form:
 
-```ruby
+```html
 <div class="search-bar">
   <%= form_tag(root_path, method: "get", id: "search-form") do %>
     <div class="input-group">
