@@ -155,7 +155,7 @@ Take note of the top line there:
   <video controls="" autoplay="" name="media" style="max-width: 100%;">
     <source src="http://bjcantlupe.com/img/flash-cards-authorization-example.mp4" type="video/mp4">
   </video>
-  <figcaption><small>The <code>authenticate_user!<code> helper at work</small></figcaption>
+  <figcaption><small>The <code>authenticate_user!</code> helper at work</small></figcaption>
 </figure>
 `FoldersController` and `StudySetsController` look pretty similar, and they are pretty long. So, instead of sharing both completely, I'm just going to explain the pattern.
 
