@@ -148,6 +148,10 @@ Take note of the top line there:
 
 `before_action :authenticate_user!, except: [:show]`. The `authenticate_user!` helper method is provided by Devise to clean up authentication logic. you can pass in an array of exceptions to allow guests to view certain pages. I have that line at the top of every controller. The only thing that changes is what is inside `except: []`.
 
+  <video controls="" autoplay="" name="media" style="max-width: 100%;">
+    <source src="http://bjcantlupe.com/img/flash-cards-authorization-example.mp4" type="video/mp4">
+  </video>
+
 `FoldersController` and `StudySetsController` look pretty similar, and they are pretty long. So, instead of sharing both completely, I'm just going to explain the pattern.
 
 As mentioned before, user authentication starts at the top, using the `authenticate_user!` helper method. For some actions, like `#create`, `#update` and `#destroy`, it is necessary to ensure that the current user is the same as the user attached to the model being manipulated. I created a couple helpers in `ApplicationController` for that.
