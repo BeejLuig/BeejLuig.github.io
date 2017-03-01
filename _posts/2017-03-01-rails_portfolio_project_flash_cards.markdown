@@ -17,9 +17,12 @@ My latest project for the Flatiron School's online verified program is complete!
 
 I opted to utilize Devise to manage registering new users and managing sessions. I only needed a user to login with an email and password, and the Devise defaults suited this nicely. Devise also plays well with Omniauth (kinda), which was nice because Omniauth was a requirement for this project. I used Omniauth to enable Google OAuth2 sign-ins. It would have been nice to authorize a single user via username/password OR Google OAuth, but it was a headache that I decided to avoid. 
 
+<figure style="margin: 0 auto;text-align:center;">
   <video controls="" autoplay="" name="media" style="max-width: 100%;">
     <source src="http://bjcantlupe.com/img/flash-cards-omniauth.mp4" type="video/mp4">
   </video>
+  <figcaption><small>Logging in with Omniauth</small></figcaption>
+</figure>
 
 Unfortunately in development mode, the client ID and secret key required to utilize Omniauth don't like to stick around for very long. I used the Dot Env gem to hold my ENV variables. If you decide to use this, don't forget to add you `.env` file to `.gitignore`. You don't want strangers seeing those variables!
 
@@ -148,10 +151,12 @@ Take note of the top line there:
 
 `before_action :authenticate_user!, except: [:show]`. The `authenticate_user!` helper method is provided by Devise to clean up authentication logic. you can pass in an array of exceptions to allow guests to view certain pages. I have that line at the top of every controller. The only thing that changes is what is inside `except: []`.
 
+<figure style="margin: 0 auto;text-align:center;">
   <video controls="" autoplay="" name="media" style="max-width: 100%;">
     <source src="http://bjcantlupe.com/img/flash-cards-authorization-example.mp4" type="video/mp4">
   </video>
-
+  <figcaption><small>The <code>authenticate_user!<code> helper at work</small></figcaption>
+</figure>
 `FoldersController` and `StudySetsController` look pretty similar, and they are pretty long. So, instead of sharing both completely, I'm just going to explain the pattern.
 
 As mentioned before, user authentication starts at the top, using the `authenticate_user!` helper method. For some actions, like `#create`, `#update` and `#destroy`, it is necessary to ensure that the current user is the same as the user attached to the model being manipulated. I created a couple helpers in `ApplicationController` for that.
