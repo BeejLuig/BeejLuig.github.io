@@ -91,7 +91,7 @@ Users can see and interact with any study set. At the bottom of every study set 
   <figcaption><small>Engage study mode!</small></figcaption>
 </figure>
 
-A user should also know about which study sets he/she has studied. Users can then easily find recent study sets in their account without copying them. They is listed under "Recently Studied."
+A user should also know about which study sets he/she has studied. Users can then easily find recent study sets in their account without copying them. They are listed under "Recently Studied."
 
 <figure style="margin: 0 auto;text-align:center;">
   <img src="http://bjcantlupe.com/img/flash-cards-user-page.png" class="img img-responsive" alt="user profile page">
