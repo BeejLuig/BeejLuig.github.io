@@ -248,7 +248,7 @@ Then we have the `#copy` action. If a user is viewing a study set show page crea
 The `#dup` method duplicates all of the attributes of an object. In the case of `StudySet`, I need to `dup` the `study_set` instance and all of the `flash_cards` belonging to `study_set`.
 
 <figure style="margin: 0 auto;text-align:center;">
-  <img src="http://bjcantlupe.com/img/flash-cards-sort-after.png" class="img img-responsive" alt="copy this">
+  <img src="BeejLuig.github.io/img/flash-cards-copythis.png" class="img img-responsive" alt="copy this">
   <figcaption><small>Copy this</small></figcaption>
 </figure>
 
