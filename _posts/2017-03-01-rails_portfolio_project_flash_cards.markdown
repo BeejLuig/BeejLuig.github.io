@@ -347,4 +347,6 @@ And that's it! The results of the search will be visible on the page. If the res
 
 I'm actually not going to get into the view yet. I will be updating this application for my next project (JavaScript and jQuery). It will make more sense to write about the front-end then. In the meantime, I'll let the images and videos above speak for themselves.
 
-The full video demonstration of the application will be added later today!
+Here is the full demo! I found a mistake towards the end of the video. The mistake is fixed, the video is not ;)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sfPlwC9oZ6o" frameborder="0" allowfullscreen></iframe>
