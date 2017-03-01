@@ -84,8 +84,8 @@ Before that line, you can see this:
 Users can see and interact with any study set. At the bottom of every study set is a "Study Mode" button. Whenever a unique user presses that button on a study set, that user is added to the study set's `studiers` array. This is why `StudySet` has many `:studiers`.
 
 <figure style="margin: 0 auto;text-align:center;">
-  <img src="http://bjcantlupe.com/img/flash-cards-studymode-button.png" class="img img-responsive" alt="study mode button">
-  <figcaption>Engage study mode!</figcaption>
+  <img src="http://bjcantlupe.com/img/flash-cards-studymode-button.png" class="img img-responsive" alt="study mode button" style="margin: 0 auto">
+  <figcaption style="margin: 0 auto;text-align:center;"><small>Engage study mode!</small></figcaption>
 </figure>
 
 A user should also know about which study sets he/she has studied. Users can then easily find recent study sets in their account without copying them. I still need to add that feature :p.
