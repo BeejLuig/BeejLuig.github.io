@@ -245,15 +245,15 @@ Ok, so there is one more thing I want to add, because this was a feature that I 
 
 ```
 <div class="search-bar">
-        <%= form_tag(root_path, method: "get", id: "search-form") do %>
-        <div class="input-group">
-          <%= text_field_tag :search, params[:search], class: "form-control" %>
-          <span class="input-group-btn">
-          <%= submit_tag "Search", name: nil, class: "btn btn-default"%>
-        </span>
-        </div><!-- /input-group -->
-      <%end%>
-    </div><!-- /.search-bar -->
+  <%= form_tag(root_path, method: "get", id: "search-form") do %>
+    <div class="input-group">
+      <%= text_field_tag :search, params[:search], class: "form-control" %>
+      <span class="input-group-btn">
+        <%= submit_tag "Search", name: nil, class: "btn btn-default"%>
+      </span>
+    </div><!-- /input-group -->
+  <%end%>
+</div><!-- /.search-bar -->
 ```
 
 This form basically just sends the inputted text to the params hash in `params[:search]`. Then, in `study_sets#index`:
