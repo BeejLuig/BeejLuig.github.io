@@ -15,7 +15,7 @@ My latest project for the Flatiron School's online verified program is complete!
 
 **Managing User Sessions with Omniauth and Devise**
 
-I opted to utilize Devise to manage registering new users and managing sessions. I only needed a user to login with an email and password, and the Devise defaults suited this nicely. Devise also plays well with Omniauth (kinda), which was nice because Omniauth was a requirement for this project. I used Omniauth to enable Google OAuth2 sign-ins. It would have been nice to authorize a single user via username/password OR Google OAuth, but it was a headache that I decided to avoid. 
+I opted to utilize [Devise](https://github.com/plataformatec/devise) to manage registering new users and managing sessions. I only needed a user to login with an email and password, and the Devise defaults suited this nicely. Devise also plays well with [Omniauth](https://github.com/omniauth/omniauth) (kinda), which was nice because Omniauth was a requirement for this project. I used Omniauth to enable [Google OAuth2](https://github.com/zquestz/omniauth-google-oauth2) sign-ins. It would have been nice to authorize a single user via username/password OR Google OAuth, but it was a headache that I decided to avoid. 
 
 <figure style="margin: 0 auto;text-align:center;">
   <video controls="" autoplay="" name="media" style="max-width: 100%;">
@@ -341,6 +341,6 @@ And that's it! The results of the search will be visible on the page. If the res
 
 **Views**
 
-I'm actually not going to get too into the view yet. I will be updating this application for my next project (JavaScript and jQuery). It will make more sense to write about the front-end then. In the meantime, I'll let the images and videos above speak for themselves.
+I'm actually not going to get into the view yet. I will be updating this application for my next project (JavaScript and jQuery). It will make more sense to write about the front-end then. In the meantime, I'll let the images and videos above speak for themselves.
 
 The full video demonstration of the application will be added later today!
