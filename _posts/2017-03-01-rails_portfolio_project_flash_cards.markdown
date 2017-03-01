@@ -23,13 +23,15 @@ There are four models for this application:
 
 User
 
-```ruby
-class User < ApplicationRecord
-  has_many :folders
-  has_and_belongs_to_many :study_sets
-  has_many :flash_cards, through: :study_sets, source: :flash_cards
-end
-```
+<pre>
+  <code class="ruby">
+  class User < ApplicationRecord
+    has_many :folders
+    has_and_belongs_to_many :study_sets
+    has_many :flash_cards, through: :study_sets, source: :flash_cards
+  end
+  </code>
+</pre>
 
 StudySet
 
