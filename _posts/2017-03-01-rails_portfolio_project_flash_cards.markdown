@@ -298,7 +298,7 @@ The method checks to make sure the current user has not already been added to th
 
 **Search feature**
 
-Ok, so there is one more thing I want to add, because this was a feature that I assumed would be more difficult than it actually was. On the home page is a search form. This searches `StudySet.all` with a class-level query on the `:title` and `:description` attributes. Here is the search-form:
+Ok, so there is one more thing I want to talk about because it was a feature that I assumed would be more difficult to implement than it actually was. That feature is the *search form*. On the home page is a search form. This searches `StudySet.all` with a class-level query on the `:title` and `:description` attributes. Here is the search-form:
 
 ```html
 <div class="search-bar">
