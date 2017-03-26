@@ -26,7 +26,7 @@ Fortunately, Rails makes rendering an ActiveRecord model easy with `render json:
 
 The root path of the Flash Cards app is my `study_sets#index` view. 
 
-[Flash Cards home page](https://raw.githubusercontent.com/BeejLuig/BeejLuig.github.io/master/img/flash-cards-homepage.png)
+![Flash Cards home page](https://raw.githubusercontent.com/BeejLuig/BeejLuig.github.io/master/img/flash-cards-homepage.png)
 
 As you can see, there is a search bar to filter through the list of all study sets. Pressing the "search" button loads an jQuery AJAX GET request. 
 
