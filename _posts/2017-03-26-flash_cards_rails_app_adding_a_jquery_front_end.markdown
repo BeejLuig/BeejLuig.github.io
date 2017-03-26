@@ -161,7 +161,7 @@ These two requirements are taken care of in the context of the Handlebars templa
 
 ![study set](/img/study-set.png)
 
-You can see it says "8 terms". That number is representative of the number of flash cards within the given study set. Can you say "has many?"
+You can see it says "10 terms". That number is representative of the number of flash cards within the given study set. Can you say "has many?"
 
 ![has_many!](http://manuelvanrijn.nl/images/posts/habtm-migration.jpg)
 
