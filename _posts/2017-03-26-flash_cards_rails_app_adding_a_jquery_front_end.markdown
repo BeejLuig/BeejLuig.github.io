@@ -136,8 +136,7 @@ Based on what study sets are currently in the database, if I search "number," my
 ]
 ```
 
-In my `getSearch()` function, there is a call to 
-`transformStudySets()`. This function takes the array of the JSON response and creates a new JavaScript Model Object for each element.
+In my `getSearch()` function, there is a call to `transformStudySets()`. This function takes the array of the JSON response and creates a new JavaScript Model Object for each element.
 
 
 ```javascript
@@ -159,6 +158,8 @@ This takes care of requirements 1, 2, and 4.
 **Has_many relationship and prototype methods**
 
 These two requirements are taken care of in the context of the Handlebars template explained above. If you see this study set:
+
+![study set](/img/study-set.png)
 
 You can see it says "8 terms". That number is representative of the number of flash cards within the given study set. Can you say "has many?"
 
