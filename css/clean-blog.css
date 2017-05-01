@@ -447,3 +447,7 @@ img {
 .img-responsive {
   margin: auto; 
 }
+
+video {
+  max-width: 100%;
+}
