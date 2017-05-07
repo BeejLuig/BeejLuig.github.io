@@ -5,7 +5,7 @@ date:   2017-05-01 00:13:47 +0000
 ---
 
 
-I am excited to announce my most challenging and ambitious project for the Flatiron School's Full-Stack Web Development program: **YouTube Tutorial Dashboard**! This project is split up into two separate repositories:
+I am excited to announce my most challenging and ambitious project for the Flatiron School's Full-Stack Web Development program: [**YouTube Tutorial Dashboard**](https://yttd.herokuapp.com/)! This project is split up into two separate repositories:
 
 - [Ruby on Rails API Backend](https://github.com/BeejLuig/yt-tutorial-dashboard)
 - [React/Redux Frontend](https://github.com/BeejLuig/react-yt-tutorial-dashboard)
