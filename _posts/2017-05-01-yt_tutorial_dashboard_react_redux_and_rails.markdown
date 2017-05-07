@@ -64,7 +64,7 @@ The CSS framework is built on [Bulma](http://bulma.io/). It was a new discovery 
 
 This is not my prettiest project code-wise, but it was my most ambitious, so I don't feel so bad about it. There is a ton of room for improvement in the codebase, and I'm looking forward to going back and refactoring (after a week long beer break). My ultimate takeaway from this project is that React/Redux takes a while to get going, but it is definitely an awesome way to tackle complex front-end problems. I can't wait to work on my next React/Redux project!
 
-See a usage video for **YT Tutorial Dashboard** below. Thanks for reading!
+Click [here](https://yttd.herokuapp.com/) to try out the app. See a usage video for **YT Tutorial Dashboard** below. Thanks for reading!
 
 <video controls>
   <source src="http://bjcantlupe.com/img/yttd-addingaplaylist.mp4" type="video/mp4">
