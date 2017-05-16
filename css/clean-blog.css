@@ -444,6 +444,10 @@ img {
   margin: auto; 
 }
 
+img:hover {
+  cursor: pointer; 
+}
+
 .img-responsive {
   margin: auto; 
 }
