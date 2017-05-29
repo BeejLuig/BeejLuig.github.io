@@ -5,7 +5,7 @@ date:   2017-05-28 23:13:08 +0000
 ---
 
 
-I can't think of a better way to spend a long holiday weekend than writing a one-page CLI app to keep track of how badly my grandmother is beating me at [Gin Rummy](https://en.wikipedia.org/wiki/Gin_rummy). Rummy is Grandma's card game of choice, and she takes it quite seriously. Why not give it the official feel of having an objective compu-referee? 
+I can't think of a better way to spend a long holiday weekend than writing a one-page [CLI app](https://en.wikipedia.org/wiki/Command-line_interface) to keep track of how badly my grandmother is beating me at [Gin Rummy](https://en.wikipedia.org/wiki/Gin_rummy). Rummy is Grandma's card game of choice, and she takes it quite seriously. Why not give it the official feel of having an objective compu-referee? 
 
 ![referee](https://media.giphy.com/media/l0Iy9rv9r4nNyKKwU/giphy.gif)
 
