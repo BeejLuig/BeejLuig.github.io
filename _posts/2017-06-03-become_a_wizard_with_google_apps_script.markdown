@@ -7,7 +7,7 @@ date:   2017-06-03
 
 If you are like me, you like to use productivity apps like [IFTTT](https://ifttt.com/discover) and [Automate](https://llamalab.com/automate/)*, and you are constantly looking for new ways to improve your day-to-day efficiency. It's also likely that you use Google Apps (Gmail, Sheets, Docs, Calendar, etc) for personal or work use. Combining automation apps with Google can be a powerful thing, but wouldn't it be cooler if you could implement your own ideas without them? I say yes.
 
-<small><em>Sorry iPhone peeps, Automate is for Android only</em></small>
+<small><em>*Sorry iPhone peeps, Automate is for Android only</em></small>
 
 This is an introduction to [Google Apps Script](https://developers.google.com/apps-script/). Apps Script is a cloud-based platform in JavaScript. If you can write JavaScript, you can write Google Apps Script! One thing to be careful of though: as of now, Apps Script doesn't support ECMAScript 6. That means no block scoped variables or arrow functions for you! 
 
