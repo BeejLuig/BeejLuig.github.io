@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Become a Wizard with Google Apps Script
-date:   2017-06-04 02:40:07 +0000
+date:   2017-06-03
 ---
 
 
