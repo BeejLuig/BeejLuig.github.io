@@ -118,7 +118,9 @@ If you have an auto-generated signature like me, you can split the plain body st
 
 This is what it would look like for me:
 
-`var body = threads[i].getMessages()[0].getPlainBody().split("-----")[0]`
+`var body = threads[i].getMessages()[0].getPlainBody().split("-----")[0].toLowerCase().trim()`
+
+It's a little messy, but it gets the job done. Yay method chaining!
 
 The `appendRow` method takes an array as an argument. Since we are only populating the row with one thing, we just put the body in brackets, like so: 
 `sheet.appendRow([body])`
