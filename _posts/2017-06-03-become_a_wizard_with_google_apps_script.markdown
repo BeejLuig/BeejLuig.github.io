@@ -69,7 +69,7 @@ Dropping the subject to lower case and trimming the trailing whitespace is a goo
 
 **Logger.log("Logging logs with Logger")**
 
-For now, we are just logging the subjects to the console. Apps Script has it's own class for logging, `Logger`, so you will have to use `Logger.log` instead of `console.log`. Yes, it's confusing.
+For now, we are just logging the subjects to the console. Apps Script has it's own class for logging, `Logger`, so you will have to use `Logger.log` instead of `console.log`. If you are accustomed to using `console.log` when debugging with JavaScript, this will get confusing.
 
 At this point, we should probably run our function to see if it's working. If you haven't already, save your code. You will be prompted to name your project. Name it whatever, it doesn't matter. Now, hit the "play" triangle next to the bug icon. You will be prompted to give permission to the script to access your sheets and your email. This is a nice feature to ensure that you never open up a sheet with malicious code that automatically runs in your browser.
 
