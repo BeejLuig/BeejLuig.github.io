@@ -38,13 +38,13 @@ Before we can do anything else, we have to actually access the spreadsheet we ar
 
 ```javascript
 function addToDo() {
-	var threads = GmailApp.getPriorityInboxThreads(0, 50);
+	var threads = GmailApp.getPriorityInboxThreads(0, 10);
 	var sheet = SpreadsheetApp.getActiveSheet();
 }
 ```
 As you can see, the various Google App services are accessed by classes with the naming pattern of `AppName + "App"`. What would it look like if we wanted to access the Calendar App? You guessed it: `CalendarApp`!
 
-We are using the `getPriorityInboxThreads` method to pull the most 50 most recent emails from our inbox, starting with the most recent (zero-indexed). There is a `getInboxThreads` method, but it will include a bunch of emails we won't need to check.
+We are using the `getPriorityInboxThreads` method to pull the 10 most recent emails from our inbox. There is a `getInboxThreads` method, but it will include a bunch of emails we won't need to check.
 
 > **Quick Tip**: the [Apps Script docs](https://developers.google.com/apps-script/reference/calendar/) are great, keep them handy for detailed information about these class methods!
 
@@ -209,6 +209,8 @@ It's great that we have these magical functions, but how useful are they if we n
 We are going to set up two time-driven triggers. For `addToDo`, lets set up a trigger every minute. That way, our spreadsheet will update within one minute of sending an email with a new to-do. For `setDailyTodo`, set a day timer from "Midnight to 1am" or whenever you want that calendar event to be created. Your settings should look like this:
 
 ![Trigger settings](http://bjcantlupe.com/img/apps-script-trigger-settings.png)
+
+> **Quick Tip**: Google Apps Script has limits on the number of operations it can do each day. You can check out a list of limits [here](https://docs.google.com/macros/dashboard). If you time-driven triggers for sheets elsewhere, you may want to consider setting up triggers for every 10-15 minutes instead of one minute, or delete unnecessary scripts.
 
 Save your changes, and that should be it! Try emailing yourself another to-do. Your sheet should be updated within a minute, and you'll have a new calendar event with all of your to-dos in the description tomorrow!
 
