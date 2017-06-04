@@ -118,7 +118,7 @@ If you have an auto-generated signature like me, you can split the plain body st
 
 This is what it would look like for me:
 
-`var body = threads[i].getMessages()[0].getPlainBody().split("-----")[0].toLowerCase().trim()`
+`var body = threads[i].getMessages()[0].getPlainBody().split("-----")[0]`
 
 It's a little messy, but it gets the job done. Yay method chaining!
 
