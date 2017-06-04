@@ -125,7 +125,7 @@ It's a little messy, but it gets the job done. Yay method chaining!
 The `appendRow` method takes an array as an argument. Since we are only populating the row with one thing, we just put the body in brackets, like so: 
 `sheet.appendRow([body])`
 
-Run your function again. Did our spreadsheet update? Probably not. But why? Because we need to actually send an email with the subject line to match of course! Email yourself with the subject "todo" or "to do" and put a task in the body and run the script again.
+Run your function again. Did our spreadsheet update? Probably not. But why? Because we need to actually send an email with the subject line to match of course! Email yourself with the subject "todo" or "to do" and put a task in the body, then run the script again.
 
 > **Quick Tip**: As it is, the script will only update one row per email. If you want to add multiple tasks in each email, think about ways you can parse the text with commas or line breaks.
 
