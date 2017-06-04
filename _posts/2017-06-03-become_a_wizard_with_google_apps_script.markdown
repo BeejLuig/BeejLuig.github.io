@@ -42,7 +42,7 @@ function addToDo() {
 	var sheet = SpreadsheetApp.getActiveSheet();
 }
 ```
-As you can see, the various Google App services are accessed by classes with the app name + "App". What if you want to access the Calendar App? You guessed it: `CalendarApp`!
+As you can see, the various Google App services are accessed by classes with the naming pattern of `AppName + "App"`. What would it look like if we wanted to access the Calendar App? You guessed it: `CalendarApp`!
 
 We are using the `getPriorityInboxThreads` method to pull the most 50 most recent emails from our inbox, starting with the most recent (zero-indexed). There is a `getInboxThreads` method, but it will include a bunch of emails we won't need to check.
 
