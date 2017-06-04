@@ -65,7 +65,7 @@ function addToDo() {
 }
 ```
 
-Dropping the subject to lower case and trimming the trailing whitespace is a good way to make sure we are catching all of the emails. 
+Dropping the subject to lower case and trimming the trailing whitespace is a good way to make sure we are catching all of the emails we want. 
 
 **Logger.log("Logging logs with Logger")**
 
