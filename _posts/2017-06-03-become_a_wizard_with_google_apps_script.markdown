@@ -44,6 +44,8 @@ function addToDo() {
 ```
 As you can see, the various Google App services are accessed by classes with the naming pattern of `AppName + "App"`. What would it look like if we wanted to access the Calendar App? You guessed it: `CalendarApp`!
 
+The `getActiveSheet` method is used to pull the current sheet open in the UI. For demo purposes, this will be just fine. If you really want to use this script for your daily to-dos, you may want to consider amending that second line to `SpreadsheetApp.openByUrl('your_spreadsheet_url_here').getActiveSheet();`
+
 We are using the `getPriorityInboxThreads` method to pull the 10 most recent emails from our inbox. There is a `getInboxThreads` method, but it will include a bunch of emails we won't need to check.
 
 > **Quick Tip**: the [Apps Script docs](https://developers.google.com/apps-script/reference/calendar/) are great, keep them handy for detailed information about these class methods!
