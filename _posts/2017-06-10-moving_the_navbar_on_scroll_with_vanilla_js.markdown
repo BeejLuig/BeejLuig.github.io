@@ -56,7 +56,7 @@ With the scroll event set up, all that is left to do is applying the transition 
 <p data-height="265" data-theme-id="0" data-slug-hash="RgaaRY" data-default-tab="js" data-user="BeejLuig" data-embed-version="2" data-pen-title="Navbar Slide Up/Down on Scroll Example" class="codepen">See the Pen <a href="https://codepen.io/BeejLuig/pen/RgaaRY/">Navbar Slide Up/Down on Scroll Example</a> by BJ Cantlupe (<a href="https://codepen.io/BeejLuig">@BeejLuig</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
-That's it! You can fork and edit the source code for this example on [CodePen](https://codepen.io/BeejLuig/pen/RgaaRY).
+That's it! Try out the result by scrolling up and down in the embedded editor below. You can fork and edit the source code for this example on [CodePen](https://codepen.io/BeejLuig/pen/RgaaRY).
 
 <p data-height="265" data-theme-id="0" data-slug-hash="RgaaRY" data-default-tab="result" data-user="BeejLuig" data-embed-version="2" data-pen-title="Navbar Slide Up/Down on Scroll Example" class="codepen">See the Pen <a href="https://codepen.io/BeejLuig/pen/RgaaRY/">Navbar Slide Up/Down on Scroll Example</a> by BJ Cantlupe (<a href="https://codepen.io/BeejLuig">@BeejLuig</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
