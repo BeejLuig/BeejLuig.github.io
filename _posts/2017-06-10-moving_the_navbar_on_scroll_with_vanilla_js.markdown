@@ -13,7 +13,7 @@ This exercise felt like it was fun enough to share, so here goes!
 
 **The HTML**
 
-For the sake of this exercise, we a super basic layout. We have a `nav`, a header title, and a `p` tag with some filler text.
+For the sake of this exercise, we have a super basic layout. We have a `nav`, a header title, and a `p` tag with some filler text.
 
 <p data-height="265" data-theme-id="0" data-slug-hash="RgaaRY" data-default-tab="html" data-user="BeejLuig" data-embed-version="2" data-pen-title="Navbar Slide Up/Down on Scroll Example" class="codepen">See the Pen <a href="https://codepen.io/BeejLuig/pen/RgaaRY/">Navbar Slide Up/Down on Scroll Example</a> by BJ Cantlupe (<a href="https://codepen.io/BeejLuig">@BeejLuig</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
