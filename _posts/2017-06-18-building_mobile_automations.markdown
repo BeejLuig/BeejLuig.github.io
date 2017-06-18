@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building Mobile Automations"
-date:   2017-06-18 22:42:09 +0000
+date:   2017-06-18
 ---
 
 
