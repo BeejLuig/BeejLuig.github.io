@@ -13,6 +13,7 @@ Below are some of my best Automate projects, with brief descriptions and flowcha
 
 
 **[Touchless Audio Control](http://llamalab.com/automate/community/flows/3493)** - *1,789 downloads*
+
 > Use the proximity sensor to control your audio player with touchless gestures.
 
 ![Touchless audio control](http://bjcantlupe.com/img/touchless_audio_control.png)
@@ -20,6 +21,7 @@ Below are some of my best Automate projects, with brief descriptions and flowcha
 ---
 
 **[Ok Google: Parking](http://llamalab.com/automate/community/flows/3430)** - *653 downloads*
+
 > Use Google Now voice commands to save and retrieve your parking location.
 
 ![Ok Google: Parking](http://bjcantlupe.com/img/ok_google_parking.png)
@@ -27,6 +29,7 @@ Below are some of my best Automate projects, with brief descriptions and flowcha
 --- 
 
 **[Schedule SMS](http://llamalab.com/automate/community/flows/3575)** - *3,881 downloads*
+
 > Schedule a text to be sent sometime in the future.
 
 ![Schedule SMS](http://bjcantlupe.com/img/schedule_sms.png)
@@ -34,6 +37,7 @@ Below are some of my best Automate projects, with brief descriptions and flowcha
 ---
 
 **[Smart SMS Reminder](http://llamalab.com/automate/community/flows/4015)** - *102 downloads*
+
 > Set a delay and get reminders for received texts
 
 ![Smart SMS Reminder](http://bjcantlupe.com/img/smart_sms_reminder.png)
@@ -41,6 +45,7 @@ Below are some of my best Automate projects, with brief descriptions and flowcha
 ---
 
 **[Weekly SMS backup](http://llamalab.com/automate/community/flows/3269)** - *202 downloads*
+
 > Get a weekly email digest of your received text messages.
 
 ![Weekly SMS backup](http://bjcantlupe.com/img/weekly_sms_backup.png)
@@ -48,6 +53,7 @@ Below are some of my best Automate projects, with brief descriptions and flowcha
 --- 
 
 **[Music Theory: Chord Lookup](http://llamalab.com/automate/community/flows/3610)** - *255 downloads*
+
 > Get info about basic chords, just type a chord name and press "OK".
 
 ![Music Theory: Chord Lookup](http://bjcantlupe.com/img/music_theory_chord_info.png)
@@ -55,6 +61,7 @@ Below are some of my best Automate projects, with brief descriptions and flowcha
 --- 
 
 **[Text Bot](http://llamalab.com/automate/community/flows/4001)** - *625 downloads*
+
 > Personalized text bot that responds automatically to preset phrases. Keep your friends and family in the loop without looking at your phone.
 
 ![Text Bot](http://bjcantlupe.com/img/text_bot.png)
@@ -62,6 +69,7 @@ Below are some of my best Automate projects, with brief descriptions and flowcha
 --- 
 
 **Password Manager** - *unpublished*
+
 > Store, manage and recall passwords with a gesture
 
 ![Password Manager](http://bjcantlupe.com/img/password_manager.png)
