@@ -18,6 +18,8 @@ Below are some of my best Automate projects, with brief descriptions and flowcha
 
 ![Touchless audio control](http://bjcantlupe.com/img/touchless_audio_control.png)
 
+<small><a href="http://bjcantlupe.com/img/touchless_audio_control.png" target="_blank">Get a closer look</a><small>
+
 ---
 
 **[Ok Google: Parking](http://llamalab.com/automate/community/flows/3430)** - *653 downloads*
@@ -25,6 +27,8 @@ Below are some of my best Automate projects, with brief descriptions and flowcha
 > Use Google Now voice commands to save and retrieve your parking location.
 
 ![Ok Google: Parking](http://bjcantlupe.com/img/ok_google_parking.png)
+
+<small><a href="http://bjcantlupe.com/img/ok_google_parking.png" target="_blank">Get a closer look</a><small>
 
 --- 
 
@@ -34,6 +38,8 @@ Below are some of my best Automate projects, with brief descriptions and flowcha
 
 ![Schedule SMS](http://bjcantlupe.com/img/schedule_sms.png)
 
+<small><a href="http://bjcantlupe.com/img/schedule_sms.png" target="_blank">Get a closer look</a><small>
+
 ---
 
 **[Smart SMS Reminder](http://llamalab.com/automate/community/flows/4015)** - *102 downloads*
@@ -41,6 +47,8 @@ Below are some of my best Automate projects, with brief descriptions and flowcha
 > Set a delay and get reminders for received texts
 
 ![Smart SMS Reminder](http://bjcantlupe.com/img/smart_sms_reminder.png)
+
+<small><a href="http://bjcantlupe.com/img/smart_sms_reminder.png" target="_blank">Get a closer look</a><small>
 
 ---
 
@@ -50,6 +58,8 @@ Below are some of my best Automate projects, with brief descriptions and flowcha
 
 ![Weekly SMS backup](http://bjcantlupe.com/img/weekly_sms_backup.png)
 
+<small><a href="http://bjcantlupe.com/img/weekly_sms_backup.png" target="_blank">Get a closer look</a><small>
+
 --- 
 
 **[Music Theory: Chord Lookup](http://llamalab.com/automate/community/flows/3610)** - *255 downloads*
@@ -57,6 +67,8 @@ Below are some of my best Automate projects, with brief descriptions and flowcha
 > Get info about basic chords, just type a chord name and press "OK".
 
 ![Music Theory: Chord Lookup](http://bjcantlupe.com/img/music_theory_chord_info.png)
+
+<small><a href="http://bjcantlupe.com/img/music_theory_chord_info.png" target="_blank">Get a closer look</a><small>
 
 --- 
 
@@ -66,6 +78,8 @@ Below are some of my best Automate projects, with brief descriptions and flowcha
 
 ![Text Bot](http://bjcantlupe.com/img/text_bot.png)
 
+<small><a href="http://bjcantlupe.com/img/text_bot.png" target="_blank">Get a closer look</a><small>
+
 --- 
 
 **Password Manager** - *unpublished*
@@ -73,6 +87,8 @@ Below are some of my best Automate projects, with brief descriptions and flowcha
 > Store, manage and recall passwords with a gesture
 
 ![Password Manager](http://bjcantlupe.com/img/password_manager.png)
+
+<small><a href="http://bjcantlupe.com/img/password_manager.png" target="_blank">Get a closer look</a><small>
 
 ---
 
